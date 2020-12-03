@@ -1,0 +1,19 @@
+.note {
+  width: 250px;
+  height: 270px;
+  box-shadow: 0.3px 0.3px 2px 0.5px rgb(19, 19, 19);
+  border-radius: 10px;
+  background-image: url("../../fondonotas.png");
+  display: flex;
+  justify-content: center;
+}
+.body {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 53% 0px 15px 15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Balsamiq Sans";
+  word-break: break-all;
+}
