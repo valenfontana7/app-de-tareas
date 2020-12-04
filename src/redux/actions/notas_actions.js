@@ -13,7 +13,7 @@ import {
   
   const listNotas = () => async (dispatch) => {
       dispatch({ type: NOTAS_LIST_REQUEST });
-      const { data } = await axios.get("http://pern-valenfontana7.herokuapp.com/todos");
+      const { data } = await axios.get("https://pern-valenfontana7.herokuapp.com/todos");
       if (!data) {
         dispatch({
           type: NOTAS_LIST_FAIL,
@@ -26,7 +26,7 @@ import {
 
   const deleteNotas = (id) => async (dispatch) => {
     await axios
-      .delete(`http://pern-valenfontana7.herokuapp.com/todo/${id}`, {
+      .delete(`https://pern-valenfontana7.herokuapp.com/todo/${id}`, {
         params: id,
       })
       .then((res) => {
@@ -49,7 +49,7 @@ import {
   
   const editNotas = (nota) => async (dispatch) => {
     axios
-      .put(`http://pern-valenfontana7.herokuapp.com/todo/${nota.todo_id}`, {
+      .put(`https://pern-valenfontana7.herokuapp.com/todo/${nota.todo_id}`, {
         description: `${nota.description}`
       })
       .then((data) => {
