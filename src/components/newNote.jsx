@@ -20,7 +20,7 @@ function NewNote() {
             try {
                 const { description } = todo;
                 const body = { description: description };
-                const response = await fetch(`http://pern-valenfontana7.herokuapp.com/todos`, {
+                const response = await fetch(`https://pern-valenfontana7.herokuapp.com/todos`, {
                   method: "POST",
                   headers: { "Content-type": "application/json" },
                   body: JSON.stringify(body),
