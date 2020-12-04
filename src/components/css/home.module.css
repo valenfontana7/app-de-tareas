@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.greeting {
+    width: 600px;
+    font-size: 40px;
+    font-family: "Balsamiq Sans", cursive;
+    color: rgba(47, 47, 48, 0.918);
+    text-shadow: 1px 1px 1px 1px  rgb(47, 47, 47);
+}

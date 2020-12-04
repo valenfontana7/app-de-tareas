@@ -1,0 +1,38 @@
+.new {
+    width: 80%;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    font-family: "Balsamiq Sans", cursive;
+    color: rgb(191, 214, 248);
+    text-shadow: 1px 1.5px 1px rgb(88, 88, 88);
+}
+.boton {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: white;
+    border-style: none;
+    box-shadow: 0.3px 0.3px 1.5px 1px rgb(191, 214, 248);
+    font-family: "Balsamiq Sans", cursive;
+    color: rgb(191, 214, 248);
+    margin-left: 15px;
+    cursor: pointer;
+}
+.boton:hover {
+    box-shadow: 0.3px 0.3px 2px 0.9px rgb(155, 177, 211);
+  }
+.title {
+    font-size: 50px;
+}
+.input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0.3px 0.3px 1.5px 1px rgb(191, 214, 248);
+}
