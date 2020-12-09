@@ -23,7 +23,7 @@ function ListNotes() {
           </div>
         ))
       ) : (
-        <div>
+        <div className={style.loading}>
           <img src="imagenes/Spin-1s-200px.gif"></img>
         </div>
       )}

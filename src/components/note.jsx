@@ -55,6 +55,7 @@ function Note({ note }) {
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogContent>
           <div className={style.dialog}>
+            <Button onClick={(e)=> setOpen(false)} variant="contained" color="secondary">X</Button>
       <h1 className={style.title}>Editar nota</h1>
         <form onSubmit={handleSubmit} className="d-flex mt-5">
           <input

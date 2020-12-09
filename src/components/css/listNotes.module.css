@@ -6,6 +6,12 @@
 .nota {
   margin: 0 0 0 25px;
 }
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes ldio9criygy4sib {
   0% {
     opacity: 1;
