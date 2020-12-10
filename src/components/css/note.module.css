@@ -89,7 +89,7 @@
 }
 @media(max-width: 470px) {
   .note {
-    width: 95%;
+    width: 80%;
   }
 }
 @media(max-width: 480px) {

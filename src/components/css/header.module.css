@@ -45,6 +45,8 @@
   .header {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-content: center;
     padding-top: 5%;
     padding-bottom: 10%;
   }
