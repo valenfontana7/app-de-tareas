@@ -8,12 +8,16 @@ export default function header() {
         <h1 className={style.title}>Mis Notas</h1>
       </a>
       <div>
-        <button className={style.boton}>
-          <a href="/notas/new">Crear Nota</a>
+      <a className={style.boton} href="/notas/new">
+        <button>
+          Crear Nota
         </button>
-        <button className={style.boton}>
-          <a href="/notas">Ver Notas</a>
+        </a>
+        <a className={style.boton} href="/notas">
+        <button>
+          Ver Notas
         </button>
+        </a>
       </div>
     </div>
   );

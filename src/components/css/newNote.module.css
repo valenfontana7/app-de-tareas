@@ -1,14 +1,19 @@
 .new {
-    width: 80%;
+    width: 100%;
     padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .form {
     font-family: "Balsamiq Sans", cursive;
     color: rgb(191, 214, 248);
     text-shadow: 1px 1.5px 1px rgb(88, 88, 88);
+}
+.form input {
+    font-family: "Balsamiq Sans", cursive; 
+    padding-left: 8px;
 }
 .boton {
     width: 120px;
@@ -35,4 +40,48 @@
     border-radius: 20px;
     border-style: none;
     box-shadow: 0.3px 0.3px 1.5px 1px rgb(191, 214, 248);
+}
+.msg {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    background: rgb(130, 231, 121);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msg button {
+    background: white;
+    border-style: none;
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+.error {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    background: rgb(253, 121, 121);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.error button {
+    background: white;
+    border-style: none;
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+@media(max-width: 480px) {
+    .new {
+        width: 90%;
+        margin: auto auto auto 10%;
+    }
+    .boton {
+        margin-top: 5%;
+    }
 }

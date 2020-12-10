@@ -49,3 +49,60 @@
 .dialog {
   padding-bottom: 20%;
 }
+.dialog form input {
+  font-family: "Balsamiq Sans", cursive;
+  padding-left: 8px;
+}
+.msg {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  background: rgb(130, 231, 121);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msg button {
+  background: white;
+  border-style: none;
+  color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+.error {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  background: rgb(253, 121, 121);
+  margin: 15px 5px 5px 5px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.error button {
+  background: white;
+  border-style: none;
+  color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+@media(max-width: 470px) {
+  .note {
+    width: 95%;
+  }
+}
+@media(max-width: 480px) {
+  .new {
+      width: 90%;
+      margin: auto auto auto 10%;
+  }
+  .boton {
+      margin-top: 5%;
+  }
+}
+@media(max-width: 555px) {
+  .boton {
+    margin-top: 5%;
+}
+}

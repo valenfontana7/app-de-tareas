@@ -18,17 +18,34 @@
   color: rgb(114, 156, 219);
 }
 .boton {
-  background: white;
-  border-style: none;
+  background: transparent;
+  margin-left: 15px;
+  
+}
+.boton button {
   width: 135px;
   height: 30px;
-  margin-left: 15px;
+  border-style: none;
+  background: white;
+  text-decoration: none;
   border-radius: 10px;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 15px;
+  color: rgb(114, 156, 219);
   box-shadow: 0.3px 0.3px 2px 0.5px rgb(75, 77, 78);
+  cursor: pointer;
 }
-.boton:hover {
+.boton button:hover {
   box-shadow: 0.3px 0.3px 2px 0.9px rgb(75, 77, 78);
 }
 .brand {
   text-decoration: none;
+}
+@media(max-width: 470px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
 }
